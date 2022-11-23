@@ -1,0 +1,40 @@
+\input texinfo
+@settitle Maze
+
+@copying
+Copyright @copyright{} school 21
+@end copying
+
+@titlepage
+@title Maze
+@page
+@vskip 0pt plus 2filll
+@insertcopying
+@end titlepage
+
+@chapter About the program
+The program is implemented on the graphics libraries QT and Opengl. With it, the user can:
+@itemize
+@item Browse the maze by uploading .txt files.
+@item Generate a maze by setting its size.
+@item Save the result in .txt formats.
+@item Find the shortest path in the maze from the starting point to the end point.
+
+@item Browse the cave by downloading .txt files.
+@item Generate a cave by specifying its size, chance of initiation, conditions of life or death of cells.
+@item Save the result in .txt formats.
+@end itemize
+@chapter Where to start
+To start using the program, it must be installed using the make install command. This command will install the program on the desktop in the "Maze" folder.
+@chapter How to use.
+@itemize
+@item To open a maze, select the appropriate tab and click "Open File" after specifying the path to it.
+@item To generate a labyrinth or cave, select the appropriate tab and click "Generate". The generation parameters are configured by the corresponding sliders.
+@item To find the shortest path in a maze, select the start point with the left mouse button and the end point with the right mouse button. If you select the corresponding point in the same coordinates, it will disappear.
+@item You can completely delete the shortest path using the "Delete path" button.
+@item In order for the cave to be generated step by step, you can view each step by pressing the "step" button.
+@item In order for the cave to be generated automatically, set the Step delay to the corresponding slider and click the "Auto" button.
+@item To save a labyrinth or cave, click the "Save file" button and choose a save path.
+@end itemize
+@chapter Delete
+You can uninstall a user program with the make uninstall command.
